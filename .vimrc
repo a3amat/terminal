@@ -1,7 +1,8 @@
+# нумерация строк
 set number
 
 
-
+# Установка плагинов
 call plug#begin()
 
 Plug 'preservim/NERDTree'
