@@ -20,7 +20,7 @@ git clone git@github.com:a3amat/terminal.git
 ```
 sh install.sh
 ```
-### Управление
+### Управление tmux
 Префикс сочетание клавиш: ctrl+a, далее в тексте, если будет термин prefix, то будет подразумеваться нажате ctrl+a
 
 ```
