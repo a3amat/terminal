@@ -1,13 +1,13 @@
 # Vim & Tmux
 Файлы конфигурации для приложений Vim и Tmux
 
-1) Установка приложений:
+### Установка приложений:
    ```
    sudo apt install -y vim tmux
    sudo yum install -y vim tmux
    ```
-2) Получаем настройки для приложени
+### Получаем настройки для приложени
    ```
-   git clone
+   git clone git@github.com:a3amat/terminal.git
    sh install.sh
    ```
