@@ -38,3 +38,4 @@ prefxi + l
 prefxi + w
 
 ```
+### Управление vim
