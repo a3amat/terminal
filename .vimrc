@@ -5,16 +5,17 @@ filetype on
 filetype plugin on
 filetype plugin indent on
 set termguicolors
-"colorscheme challenger_deep
-
 
 "Установка плагинов
-call plug#begin('~/.local/share/vim/plugged')
-Plug 'vim-airline/vim-airline'
+call plug#begin()
 Plug 'itchyny/lightline.vim'
-Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
+Plug 'junegunn/seoul256.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
-if has('vim') || has('termguicolors')
+if exists('+termguicolors')
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
   set termguicolors
 endif
