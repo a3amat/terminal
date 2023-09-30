@@ -1,1 +1,2 @@
-# terminal
+# Vim & Tmux
+Файлы конфигурации для приложений Vim и Tmux
