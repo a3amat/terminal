@@ -6,7 +6,6 @@ filetype plugin on
 filetype plugin indent on
 
 "Строки отвечают за цветопередачу
-
 set termguicolors
 
 if exists('+termguicolors')
