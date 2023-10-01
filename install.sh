@@ -1,27 +1,27 @@
 #!/bin/bash
-green="\033[42m"
-red="\033[41m"
+green="\e[32m"
+red="\e[31m"
 endcolor="\e[0m"
 
 tmux=.tmux.conf
 vimrc=.vimrc
 
 echo
-cp ${tmux} ${HOME}/
+cp ${tmux} ${HOME}/56456/
 if [ $? -ne 0 ]
 then
     echo -e "${red} Error copy file ${tmux}${endcolor}"
 else
-    echo -e "${green}${HOME}/${tmux} copy file success${endcolor}"
+    echo -e "${green}File ${tmux} copy success${endcolor}"
 fi
 
 echo
-cp ${vimrc} ${HOME}/
+cp ${vimrc} ${HOME}/456456/
 if [ $? -ne 0 ]
 then
     echo -e "${red} Error copy file ${vimrc}${endcolor}"
 else
-    echo -e "${green}${HOME}/${vimrc} copy file success${endcolor}"
+    echo -e "${green}File ${vimrc} copy success${endcolor}"
 fi
 
 echo
