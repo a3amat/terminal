@@ -20,4 +20,11 @@ Plug 'itchyny/lightline.vim'
 Plug 'junegunn/seoul256.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
+Plug 'nordtheme/vim'
 call plug#end()
+
+colorscheme nord
+
